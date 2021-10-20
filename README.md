@@ -32,8 +32,18 @@ wget -O - https://raw.githubusercontent.com/BochilGaming/games-wabot/main/instal
 ```
 
 ---------
+## INSTALL DI TERMUX VIA GIT CLONE
+pkg update && pkg upgrade
+pkg install nodejs -y
+pkg install git -y
+pkg install ffmpeg -y
+pkg install imagemagick -y
+git clone https://github.com/Note-Bot23/script-bot
+cd script-bot
+npm i
+node .
 
-## INSTALL ON TERMUX WITH UBUNTU
+## INSTAL DI TERMUX DENGAN UBUNTU
 
 [ INSTALLING UBUNTU ]
 
