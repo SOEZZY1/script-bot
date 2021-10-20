@@ -31,8 +31,9 @@ pkg install bash && pkg install wget
 wget -O - https://raw.githubusercontent.com/BochilGaming/games-wabot/main/install2.sh | bash
 ```
 
----------
+--------
 ## INSTALL DI TERMUX VIA GIT CLONE
+```bash
 pkg update && pkg upgrade
 pkg install nodejs -y
 pkg install git -y
@@ -42,7 +43,9 @@ git clone https://github.com/Note-Bot23/script-bot
 cd script-bot
 npm i
 node .
+```
 
+--------
 ## INSTAL DI TERMUX DENGAN UBUNTU
 
 [ INSTALLING UBUNTU ]
